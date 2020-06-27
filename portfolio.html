@@ -29,12 +29,20 @@
           </ul>
           <ul class="site-contacts">
             <li class="item">
-              <img src="image/mail.svg" alt="" />
-              <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
+              <!--<img src="image/mail.svg" alt="" />-->
+              <a href="mailto:info@devstudio.com" class="link">
+                <svg class="site-contacts-icon" width="16px" height="12px">
+                  <use href="./image/sprites_l.svg#icon-mail_l"></use>
+                </svg>
+                info@devstudio.com</a>
             </li>
             <li class="item">
-              <img src="image/tel.svg" alt="" />
-              <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
+              <!--<img src="image/tel.svg" alt="" />-->
+              <a href="tel:+380961111111" class="link">
+                <svg class="site-contacts-icon" width="16px" height="12px">
+                  <use href="./image/sprites_l.svg#icon-tel_l"></use>
+                </svg>
+                +38 096 111 11 11</a>
             </li>
           </ul>
         </div>
@@ -76,11 +84,12 @@
         <li class="portfolio-list-item">
           <a href="" class="portfolio">
             <img  class="portfolio-list-image" src="image/project3_l.jpg" alt="" />
-          </a>
+          
             <div class="card-content">
               <h3 class="portfolio-list-title">Ресторан Seafood</h3>
               <p class="portfolio-list-text">Приложение</p>
            </div>
+          </a>
         </li>
         <li class="portfolio-list-item">
           <a href="" class="portfolio">
@@ -164,16 +173,36 @@
          <b class="footer-title">присоединяйтесь</b>
          <ul class="icon-footer-list">
            <li class="item">       
-             <a href=""><img src="image/inst.svg" alt="" /></a>
+             <a href="" class="footer-link-n" aria-label="Инстаграмм">
+               <svg class="footer-link-icon" width="20px" height="20px">
+                 <use href="./image/sprites_l.svg#icon-inst_l"></use>
+              </svg>
+            </a>
+               <!--<img src="image/inst.svg" alt="" /></a>-->
            </li>
            <li class="item">
-             <a href=""><img src="image/twit.svg" alt="" /></a>
+             <a href="" class="footer-link-n" aria-label="Твиттер">
+                 <svg class="footer-link-icon" width="20px" height="20px">
+                   <use href="./image/sprites_l.svg#icon-twit_l"></use>
+                 </svg>
+                  <!--<img src="image/twit.svg" alt="" />-->
+               </a>
            </li>
            <li class="item">
-             <a href=""><img src="image/face.svg" alt="" /></a>
+             <a href="" class="footer-link-n" aria-label="Фейсбук">
+               <svg class="footer-link-icon" width="20px" height="20px">
+                 <use href="./image/sprites_l.svg#icon-face_l"></use>
+               </svg>
+               <!--<img src="image/face.svg" alt="" /></a>-->
+             </a>
            </li>
            <li class="item">
-             <a href=""><img src="image/link.svg" alt="" /></a>
+             <a href="" class="footer-link-n" aria-label="Линкедин">
+               <svg class="footer-link-icon" width="20px" height="20px">
+                 <use href="./image/sprites_l.svg#icon-link_l"></use>
+               </svg>
+               <!--<img src="image/link.svg" alt="" /></a>-->
+             </a>
            </li>
          </ul> 
         </div>
@@ -183,7 +212,10 @@
            <input type="text" name="/" value="E-mail" />
            <button class="button-footer">
              Подписаться
-           <img src="image/telegram.svg" alt="" />
+             <svg width="24px" height="24px">
+               <use href="./image/sprites_l.svg#icon-telegram_l"></use>
+             </svg>
+           <!--<img src="image/telegram.svg" alt="" />-->
            </button>
         </form>
        </div>
