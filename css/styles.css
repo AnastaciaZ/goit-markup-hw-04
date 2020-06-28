@@ -465,8 +465,8 @@ margin-bottom: 8px;
   }
   
 .button-portfolio:hover {
-    color: var(--secondary-background-color);
-    background-color: var(--accent-color);
+  color: var(--secondary-background-color);
+  background-color: var(--accent-color);
 }
   
 .portfolio-button .item:not(:first-child){
@@ -480,13 +480,11 @@ margin-bottom: 8px;
    width: calc((100% - 60px)/3);
    margin-right: 30px;
    margin-bottom: 30px;
-   /*border: 1px solid #EEEEEE;*/
+   border: 1px solid #EEEEEE;
  }
 .portfolio-list-item:hover{
-  Stroke: Solid
-  #EEEEEE
-  Align: Inside
-  Width: 1px
+  box-shadow: 9px 11px 5px -6px rgba(0,0,0,0.63);
+
  }
 .portfolio-list-item:nth-child(3n) {
   margin-right: 0px;
