@@ -483,7 +483,7 @@ margin-bottom: 8px;
    width: calc((100% - 60px)/3);
    margin-right: 30px;
    margin-bottom: 30px;
-   border: 1px solid #EEEEEE;
+   /*border: 1px solid #EEEEEE;*/
  }
 .portfolio-list-item:hover{
   box-shadow:  1px 4px 6px rgba(0, 0, 0, 0.16),
